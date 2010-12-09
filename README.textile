@@ -1,3 +1,9 @@
 h1. An agent-based simulation model of Twitter network
 
 This is just an experiment made with Processing for a research I am doing. Letting each agent follow a few simple and 'selfish' rules the whole network self-organizes into a structure which is surprisingly close to optimal in terms of filtering information delivered to each agent.
+
+Shortcut Keys:
+
+N = saves the current network structure into a file named network.csv
+U = saves some info about agents into a file named users.csv
+R = toggles 'reach highlight mode' on and off. This mode shows in red the agents from which a selected agent receives informations in each simulation step (the 'target' agent can be selected with UP/DOWN keys or with mouse click)
