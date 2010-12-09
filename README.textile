@@ -1,0 +1,3 @@
+== An agent-based simulation model of Twitter network
+
+This is just an experiment made with Processing for a research I am doing.
