@@ -1,3 +1,3 @@
 h1. An agent-based simulation model of Twitter network
 
-This is just an experiment made with Processing for a research I am doing.
+This is just an experiment made with Processing for a research I am doing. Letting each agent follow a few simple and 'selfish' rules the whole network self-organizes into a structure which is surprisingly close to optimal in terms of filtering information delivered to each agent.

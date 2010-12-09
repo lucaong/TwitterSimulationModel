@@ -133,8 +133,19 @@ void keyPressed() {
     else if (keyCode == DOWN) {
       selected_agent--;
       if(selected_agent < 0) {
-        selected_agent = 500;
+        selected_agent = 499;
       }
+    }
+  }
+}
+
+void mouseClicked() {
+  float min_dist = 9999999.9;
+  Vector mouse_position = new Vector(mouseX, mouseY);
+  for(int i = 0; i < NUMBER_OF_AGENTS; i++) {
+    if(agents[i].position.distance(mouse_position) < min_dist) {
+      min_dist = agents[i].position.distance(mouse_position);
+      selected_agent = i;
     }
   }
 }
